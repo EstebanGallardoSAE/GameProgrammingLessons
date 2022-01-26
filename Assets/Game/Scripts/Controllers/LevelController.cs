@@ -96,16 +96,15 @@ public class LevelController : MonoBehaviour
         return false;
     }
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void RunLogic()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        for (int i = 0; i < Enemies.Length; i++)
+        {
+            if (Enemies[i] != null) Enemies[i].RunLogic();
+        }
+        for (int i = 0; i < NPCs.Length; i++)
+        {
+            if (NPCs[i] != null) NPCs[i].RunLogic();
+        }
     }
 }

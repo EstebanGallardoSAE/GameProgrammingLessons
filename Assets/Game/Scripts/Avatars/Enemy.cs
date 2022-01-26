@@ -237,8 +237,7 @@ public class Enemy : Avatar
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void RunLogic()
     {
         switch (m_state)
         {
@@ -311,6 +310,5 @@ public class Enemy : Avatar
                 }
                 break;
         }
-        
     }
 }

@@ -73,6 +73,11 @@ public class Player : Avatar
         ChangeState(IDLE);
     }
 
+    public void SetIdleState()
+    {
+        ChangeState(IDLE);
+    }
+
     public override void FreezeLogic()
     {
         ChangeState(INITIAL);
@@ -198,8 +203,7 @@ public class Player : Avatar
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void RunLogic()
     {
         switch (m_state)
         {
