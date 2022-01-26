@@ -98,9 +98,9 @@ public class GameController : StateMachine
 
     private void RunGame()
     {
-
+        MyPlayer.RunLogic();
+        LevelController.Instance.RunLogic();
     }
-
 
     private bool IsPlayerDead()
     {
@@ -156,11 +156,16 @@ public class GameController : StateMachine
         LevelController.Instance.InitializeLogicGameElements();
     }
 
+    private void RestoreLogicGameElements()
+    {
+        GameUI.SetActive(true);
+        MyPlayer.SetIdleState();
+        LevelController.Instance.InitializeLogicGameElements();
+    }
+
     private void FreezeLogicGameElements()
     {
         GameUI.SetActive(false);
-        MyPlayer.FreezeLogic();
-        LevelController.Instance.FreezeLogicGameElements();
     }
 
     public void PressedNextButtonGameOver()
@@ -244,7 +249,10 @@ public class GameController : StateMachine
                 SoundsController.Instance.StopSoundBackground();
                 SoundsController.Instance.PlaySoundBackground(SoundsController.MELODY_INGAME, true, 1);
                 DisableAllScreens();
-                InitializeLogicGameElements();
+                if (m_lastState == LOAD_GAME)
+                {
+                    InitializeLogicGameElements();
+                }
                 CameraController.Instance.RestorePreviousCamera();
                 Debug.Log("GAME CONTROLLER A ESTADO GAME_RUNNING");
                 break;

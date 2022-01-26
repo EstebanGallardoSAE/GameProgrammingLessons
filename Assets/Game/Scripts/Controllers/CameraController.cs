@@ -83,7 +83,6 @@ public class CameraController : StateMachine
         {
             case CAMERA_1ST_PERSON:
                 GameCamera.transform.SetParent(GamePlayer.transform);
-                GameCamera.transform.forward = new Vector3(0, 0, 0);
                 GameCamera.transform.localPosition = new Vector3(0, 1.26f, 0);
                 SystemEventController.Instance.DispatchSystemEvent(SystemEventController.EVENT_CAMERA_SWITCHED_TO_1ST_PERSON);
                 break;

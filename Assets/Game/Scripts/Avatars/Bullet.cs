@@ -83,4 +83,8 @@ public class Bullet : Avatar
     {
         MoveToPosition(this.gameObject.transform.forward * Speed * Time.deltaTime);
     }
+
+    public override void RunLogic()
+    {
+    }
 }

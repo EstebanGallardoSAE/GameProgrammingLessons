@@ -51,6 +51,8 @@ public abstract class Avatar : StateMachine
     public abstract void InitLogic();
     public abstract void FreezeLogic();
 
+    public abstract void RunLogic();
+
     public virtual void DecreaseLife(int _damage)
     {
         m_life = m_life - _damage;
