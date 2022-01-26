@@ -132,14 +132,21 @@ public class Enemy : Avatar
     {
 		if (m_areaVisionDetection != null)
         {
-            if (Vector3.Distance(this.transform.position, GameController.Instance.MyPlayer.transform.position) < ShootingDistance)
+            if (m_playerHasBeenDetected)
             {
-                return true;
+                if (Vector3.Distance(this.transform.position, GameController.Instance.MyPlayer.transform.position) < ShootingDistance)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
                 return false;
-            }
+            }            
         }
         else
         {
