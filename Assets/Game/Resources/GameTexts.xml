@@ -1,0 +1,20 @@
+<texts>
+
+  <text id="text.menu.main">
+    <en>My awesome game</en>
+    <es>Mi juego increible</es>
+  </text>
+
+  <text id="text.win.screen">
+    <en>Congratulations!!! You Win!!!</en>
+    <es>Felicidades!!! Ganaste!!!</es>
+  </text>
+
+  <text id="text.lose.screen">
+    <en>Sorry!!! You Lose!!!</en>
+    <es>Lo siento. Perdiste :(</es>
+  </text>
+
+</texts>
+
+

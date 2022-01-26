@@ -1,0 +1,2837 @@
+fileFormatVersion: 2
+guid: 55860c648a8fb1e478729de938d3b187
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Alien_Head
+  - first:
+      1: 100002
+    second: Alien_JawBone
+  - first:
+      1: 100004
+    second: Alien_L_Calf
+  - first:
+      1: 100006
+    second: Alien_L_Collarbone
+  - first:
+      1: 100008
+    second: Alien_L_Foot
+  - first:
+      1: 100010
+    second: Alien_L_Forearm
+  - first:
+      1: 100012
+    second: Alien_L_Palm
+  - first:
+      1: 100014
+    second: Alien_L_Thigh
+  - first:
+      1: 100016
+    second: Alien_L_Toe
+  - first:
+      1: 100018
+    second: Alien_L_Upperarm
+  - first:
+      1: 100020
+    second: Alien_Neck1
+  - first:
+      1: 100022
+    second: Alien_Neck2
+  - first:
+      1: 100024
+    second: Alien_Pelvis
+  - first:
+      1: 100026
+    second: Alien_R_Calf
+  - first:
+      1: 100028
+    second: Alien_R_Collarbone
+  - first:
+      1: 100030
+    second: Alien_R_Foot
+  - first:
+      1: 100032
+    second: Alien_R_Forearm
+  - first:
+      1: 100034
+    second: Alien_R_Palm
+  - first:
+      1: 100036
+    second: Alien_R_Thigh
+  - first:
+      1: 100038
+    second: Alien_R_Toe
+  - first:
+      1: 100040
+    second: Alien_R_Upperarm
+  - first:
+      1: 100042
+    second: Alien_Ribcage
+  - first:
+      1: 100044
+    second: //RootNode
+  - first:
+      1: 100046
+    second: Alien_Spine1
+  - first:
+      1: 100048
+    second: Alien_Spine2
+  - first:
+      1: 100050
+    second: Alien_Spine3
+  - first:
+      1: 100052
+    second: Alien_Spine4
+  - first:
+      1: 100054
+    second: Circle001
+  - first:
+      1: 100056
+    second: default
+  - first:
+      4: 400000
+    second: Alien_Head
+  - first:
+      4: 400002
+    second: Alien_JawBone
+  - first:
+      4: 400004
+    second: Alien_L_Calf
+  - first:
+      4: 400006
+    second: Alien_L_Collarbone
+  - first:
+      4: 400008
+    second: Alien_L_Foot
+  - first:
+      4: 400010
+    second: Alien_L_Forearm
+  - first:
+      4: 400012
+    second: Alien_L_Palm
+  - first:
+      4: 400014
+    second: Alien_L_Thigh
+  - first:
+      4: 400016
+    second: Alien_L_Toe
+  - first:
+      4: 400018
+    second: Alien_L_Upperarm
+  - first:
+      4: 400020
+    second: Alien_Neck1
+  - first:
+      4: 400022
+    second: Alien_Neck2
+  - first:
+      4: 400024
+    second: Alien_Pelvis
+  - first:
+      4: 400026
+    second: Alien_R_Calf
+  - first:
+      4: 400028
+    second: Alien_R_Collarbone
+  - first:
+      4: 400030
+    second: Alien_R_Foot
+  - first:
+      4: 400032
+    second: Alien_R_Forearm
+  - first:
+      4: 400034
+    second: Alien_R_Palm
+  - first:
+      4: 400036
+    second: Alien_R_Thigh
+  - first:
+      4: 400038
+    second: Alien_R_Toe
+  - first:
+      4: 400040
+    second: Alien_R_Upperarm
+  - first:
+      4: 400042
+    second: Alien_Ribcage
+  - first:
+      4: 400044
+    second: //RootNode
+  - first:
+      4: 400046
+    second: Alien_Spine1
+  - first:
+      4: 400048
+    second: Alien_Spine2
+  - first:
+      4: 400050
+    second: Alien_Spine3
+  - first:
+      4: 400052
+    second: Alien_Spine4
+  - first:
+      4: 400054
+    second: Circle001
+  - first:
+      4: 400056
+    second: default
+  - first:
+      43: 4300000
+    second: default
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      74: 7400002
+    second: Knocked Down - Idle
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Attack 1Hand
+  - first:
+      74: 7400008
+    second: Attack 2Hand
+  - first:
+      74: 7400010
+    second: Attack Bite
+  - first:
+      74: 7400012
+    second: Hit Left
+  - first:
+      74: 7400014
+    second: Hit Right
+  - first:
+      74: 7400016
+    second: Hit Down
+  - first:
+      74: 7400018
+    second: Knocked Down - Start
+  - first:
+      74: 7400020
+    second: Knocked Down - End
+  - first:
+      74: 7400022
+    second: Death - Stand
+  - first:
+      74: 7400024
+    second: Death - Forward
+  - first:
+      74: 7400026
+    second: Death - Back
+  - first:
+      74: 7400028
+    second: Death - Left
+  - first:
+      74: 7400030
+    second: Death - Right
+  - first:
+      74: 7400032
+    second: Walk
+  - first:
+      74: 7400034
+    second: Walk Backwards
+  - first:
+      74: 7400036
+    second: Strafe Left
+  - first:
+      74: 7400038
+    second: Strafe Right
+  - first:
+      74: 7400040
+    second: Down to Crawl
+  - first:
+      74: 7400042
+    second: Crawl - Idle
+  - first:
+      74: 7400044
+    second: Crawl
+  - first:
+      74: 7400046
+    second: Crawl - Pounce
+  - first:
+      74: 7400048
+    second: Up from Crawl
+  - first:
+      74: 7400050
+    second: Jump - Start
+  - first:
+      74: 7400052
+    second: Jump - Middle
+  - first:
+      74: 7400054
+    second: Jump - End
+  - first:
+      74: 7400056
+    second: All
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: default
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 220
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack 1Hand
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 260
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack 2Hand
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 290
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Bite
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 320
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Left
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 360
+      lastFrame: 375
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Right
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 375
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Down
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 390
+      lastFrame: 410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knocked Down - Start
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 410
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knocked Down - Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 430
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knocked Down - End
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 460
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death - Stand
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 500
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death - Forward
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 570
+      lastFrame: 595
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death - Back
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 600
+      lastFrame: 625
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death - Left
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 630
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death - Right
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 665
+      lastFrame: 695
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 700
+      lastFrame: 730
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk Backwards
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 735
+      lastFrame: 775
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Left
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 780
+      lastFrame: 810
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Right
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 820
+      lastFrame: 839
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down to Crawl
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 850
+      lastFrame: 870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crawl - Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 870
+      lastFrame: 1020
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crawl
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1030
+      lastFrame: 1050
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crawl - Pounce
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1060
+      lastFrame: 1090
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Up from Crawl
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1090
+      lastFrame: 1120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - Start
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1130
+      lastFrame: 1146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - Middle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1146
+      lastFrame: 1154
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - End
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1154
+      lastFrame: 1170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: All
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Alien_Pelvis
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_L_Thigh/Alien_L_Calf/Alien_L_Foot/Alien_L_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_R_Thigh/Alien_R_Calf/Alien_R_Foot/Alien_R_Toe
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_L_Collarbone/Alien_L_Upperarm/Alien_L_Forearm/Alien_L_Palm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_Neck1/Alien_Neck2/Alien_Head/Alien_JawBone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm
+        weight: 1
+      - path: Circle001/Alien_Pelvis/Alien_Spine1/Alien_Spine2/Alien_Spine3/Alien_Spine4/Alien_Ribcage/Alien_R_Collarbone/Alien_R_Upperarm/Alien_R_Forearm/Alien_R_Palm
+        weight: 1
+      - path: default
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: Alien_Pelvis
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

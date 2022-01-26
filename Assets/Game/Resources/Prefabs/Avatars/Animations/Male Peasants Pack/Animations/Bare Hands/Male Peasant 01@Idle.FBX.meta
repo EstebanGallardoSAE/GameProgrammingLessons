@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: 73c10445343c00041babe447a2de51ab
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Dummy-LWeapon
+    100002: Dummy-RWeapon
+    100004: Male Peasant 01
+    100006: //RootNode
+    100008: Male Peasant 02
+    100010: Male Peasant 03
+    100012: Male Peasant 04
+    100014: Male Peasant 05
+    100016: Rig
+    100018: RigAnkleBone001
+    100020: RigAnkleBone001 1
+    100022: RigHead
+    100024: RigHeadGizmo
+    100026: RigLArm1
+    100028: RigLArm1Gizmo
+    100030: RigLArm2
+    100032: RigLArm2Gizmo
+    100034: RigLArmIndex1
+    100036: RigLArmIndex2
+    100038: RigLArmIndex3
+    100040: RigLArmMiddle1
+    100042: RigLArmMiddle2
+    100044: RigLArmMiddle3
+    100046: RigLArmPalm
+    100048: RigLArmPalmGizmo
+    100050: RigLArmThumb1
+    100052: RigLArmThumb2
+    100054: RigLArmThumb3
+    100056: RigLLeg1
+    100058: RigLLeg2
+    100060: RigLLegAnkle
+    100062: RigLLegFoot1
+    100064: RigLLegFoot2
+    100066: RigLLegPlatform
+    100068: RigNeck
+    100070: RigPelvis
+    100072: RigPelvisGizmo
+    100074: RigRArm1
+    100076: RigRArm1Gizmo
+    100078: RigRArm2
+    100080: RigRArm2Gizmo
+    100082: RigRArmIndex1
+    100084: RigRArmIndex2
+    100086: RigRArmIndex3
+    100088: RigRArmMiddle1
+    100090: RigRArmMiddle2
+    100092: RigRArmMiddle3
+    100094: RigRArmPalm
+    100096: RigRArmPalmGizmo
+    100098: RigRArmThumb1
+    100100: RigRArmThumb2
+    100102: RigRArmThumb3
+    100104: RigRibcage
+    100106: RigRibcageGizmo
+    100108: RigRLeg1
+    100110: RigRLeg2
+    100112: RigRLegAnkle
+    100114: RigRLegFoot1
+    100116: RigRLegFoot2
+    100118: RigRLegPlatform
+    100120: RigSpine1
+    100122: RigSpine2
+    100124: RigSpine3
+    100126: RigSpine4
+    100128: RigSpine5
+    400000: Dummy-LWeapon
+    400002: Dummy-RWeapon
+    400004: Male Peasant 01
+    400006: //RootNode
+    400008: Male Peasant 02
+    400010: Male Peasant 03
+    400012: Male Peasant 04
+    400014: Male Peasant 05
+    400016: Rig
+    400018: RigAnkleBone001
+    400020: RigAnkleBone001 1
+    400022: RigHead
+    400024: RigHeadGizmo
+    400026: RigLArm1
+    400028: RigLArm1Gizmo
+    400030: RigLArm2
+    400032: RigLArm2Gizmo
+    400034: RigLArmIndex1
+    400036: RigLArmIndex2
+    400038: RigLArmIndex3
+    400040: RigLArmMiddle1
+    400042: RigLArmMiddle2
+    400044: RigLArmMiddle3
+    400046: RigLArmPalm
+    400048: RigLArmPalmGizmo
+    400050: RigLArmThumb1
+    400052: RigLArmThumb2
+    400054: RigLArmThumb3
+    400056: RigLLeg1
+    400058: RigLLeg2
+    400060: RigLLegAnkle
+    400062: RigLLegFoot1
+    400064: RigLLegFoot2
+    400066: RigLLegPlatform
+    400068: RigNeck
+    400070: RigPelvis
+    400072: RigPelvisGizmo
+    400074: RigRArm1
+    400076: RigRArm1Gizmo
+    400078: RigRArm2
+    400080: RigRArm2Gizmo
+    400082: RigRArmIndex1
+    400084: RigRArmIndex2
+    400086: RigRArmIndex3
+    400088: RigRArmMiddle1
+    400090: RigRArmMiddle2
+    400092: RigRArmMiddle3
+    400094: RigRArmPalm
+    400096: RigRArmPalmGizmo
+    400098: RigRArmThumb1
+    400100: RigRArmThumb2
+    400102: RigRArmThumb3
+    400104: RigRibcage
+    400106: RigRibcageGizmo
+    400108: RigRLeg1
+    400110: RigRLeg2
+    400112: RigRLegAnkle
+    400114: RigRLegFoot1
+    400116: RigRLegFoot2
+    400118: RigRLegPlatform
+    400120: RigSpine1
+    400122: RigSpine2
+    400124: RigSpine3
+    400126: RigSpine4
+    400128: RigSpine5
+    4300000: Male Peasant 01
+    4300002: Male Peasant 02
+    4300004: Male Peasant 05
+    4300006: Male Peasant 04
+    4300008: Male Peasant 03
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Male Peasant 01
+    13700002: Male Peasant 02
+    13700004: Male Peasant 03
+    13700006: Male Peasant 04
+    13700008: Male Peasant 05
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: RigPelvis
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0715469643, y: 0, z: .0357734822}
+        length: .0894337445
+        modified: 1
+    - boneName: RigLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .277824789, y: 0, z: .138912395}
+        length: .347281128
+        modified: 1
+    - boneName: RigRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .27782464, y: 0, z: .13891232}
+        length: .347280949
+        modified: 1
+    - boneName: RigLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .307688177, y: 0, z: .153844088}
+        length: .384610355
+        modified: 1
+    - boneName: RigRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .307687759, y: 0, z: .15384388}
+        length: .384609848
+        modified: 1
+    - boneName: RigLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .105689757, y: 0, z: .0528448783}
+        length: .132112235
+        modified: 1
+    - boneName: RigRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .10568995, y: 0, z: .0528449751}
+        length: .132112473
+        modified: 1
+    - boneName: RigSpine2
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .151367053, y: 0, z: .0756835267}
+        length: .189208895
+        modified: 1
+    - boneName: RigSpine4
+      humanName: Chest
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .155474111, y: 0, z: .0777370557}
+        length: .194342718
+        modified: 1
+    - boneName: RigNeck
+      humanName: Neck
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .220890149, y: 0, z: .110445075}
+        length: .276112765
+        modified: 1
+    - boneName: RigHead
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .220890149, y: 0, z: .110445075}
+        length: .276112765
+        modified: 1
+    - boneName: RigLArm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .193612218, y: 0, z: .096806109}
+        length: .242015347
+        modified: 1
+    - boneName: RigRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .193611965, y: 0, z: .0968059823}
+        length: .242015019
+        modified: 1
+    - boneName: RigLArm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .203960031, y: 0, z: .101980016}
+        length: .254950106
+        modified: 1
+    - boneName: RigRArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .203959927, y: 0, z: .101979963}
+        length: .254949987
+        modified: 1
+    - boneName: RigLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .101980016, y: 0, z: .0509900078}
+        length: .127475053
+        modified: 1
+    - boneName: RigRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .101979963, y: 0, z: .0509899817}
+        length: .127474993
+        modified: 1
+    - boneName: RigLLegFoot2
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0808205232, y: 0, z: .0404102616}
+        length: .101025693
+        modified: 1
+    - boneName: RigRLegFoot2
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0808204561, y: 0, z: .0404102281}
+        length: .101025604
+        modified: 1
+    - boneName: RigLArmThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: -25, z: -20}
+        max: {x: 0, y: 25, z: 20}
+        value: {x: .0186318289, y: 0, z: .00931591447}
+        length: .023289796
+        modified: 1
+    - boneName: RigLArmThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0187024605, y: 0, z: .00935123023}
+        length: .0233780835
+        modified: 1
+    - boneName: RigLArmThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0140268467, y: 0, z: .00701342337}
+        length: .0175335631
+        modified: 1
+    - boneName: RigLArmIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0240751803, y: 0, z: .0120375901}
+        length: .0300939847
+        modified: 1
+    - boneName: RigLArmIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0240003504, y: 0, z: .0120001752}
+        length: .0300004464
+        modified: 1
+    - boneName: RigLArmIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .01800026, y: 0, z: .00900013}
+        length: .0225003343
+        modified: 1
+    - boneName: RigLArmMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0240000114, y: 0, z: .0120000057}
+        length: .0300000235
+        modified: 1
+    - boneName: RigLArmMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0240002945, y: 0, z: .0120001473}
+        length: .0300003774
+        modified: 1
+    - boneName: RigLArmMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0180002209, y: 0, z: .00900011044}
+        length: .022500284
+        modified: 1
+    - boneName: RigRArmThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: -25, z: -20}
+        max: {x: 0, y: 25, z: 20}
+        value: {x: .0186337922, y: 0, z: .00931689609}
+        length: .0232922491
+        modified: 1
+    - boneName: RigRArmThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0187067483, y: 0, z: .00935337413}
+        length: .0233834442
+        modified: 1
+    - boneName: RigRArmThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0140300626, y: 0, z: .0070150313}
+        length: .0175375827
+        modified: 1
+    - boneName: RigRArmIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0240749996, y: 0, z: .0120374998}
+        length: .0300937574
+        modified: 1
+    - boneName: RigRArmIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .024000017, y: 0, z: .0120000085}
+        length: .030000031
+        modified: 1
+    - boneName: RigRArmIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0180000123, y: 0, z: .00900000613}
+        length: .0225000232
+        modified: 1
+    - boneName: RigRArmMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0240002126, y: 0, z: .0120001063}
+        length: .030000275
+        modified: 1
+    - boneName: RigRArmMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0239997767, y: 0, z: .0119998883}
+        length: .0299997292
+        modified: 1
+    - boneName: RigRArmMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0179998297, y: 0, z: .00899991486}
+        length: .022499796
+        modified: 1
+    skeleton:
+    - name: Male Peasant 01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RigPelvis
+      position: {x: -3.23940008e-09, y: .863348424, z: -.0100584626}
+      rotation: {x: .515796244, y: -.483688235, z: -.515796125, w: .483688146}
+      scale: {x: 1, y: .999999344, z: 1}
+      transformModified: 1
+    - name: RigLLeg1
+      position: {x: -1.12358819e-07, y: -3.89126509e-09, z: .0937596932}
+      rotation: {x: -.0489320792, y: .998796821, z: .000492100837, w: .00320566026}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: RigLLeg2
+      position: {x: -.347281188, y: 5.26740678e-08, z: -1.33944908e-08}
+      rotation: {x: 8.52923495e-06, y: .000723693811, z: .0409248248, w: .999161899}
+      scale: {x: 1.0000006, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: RigLLegAnkle
+      position: {x: -.384610206, y: 8.38031227e-08, z: 9.1959059e-08}
+      rotation: {x: -.000128843763, y: .00252429163, z: -.270677537, w: .96266675}
+      scale: {x: 1.00000036, y: .999999464, z: .999999702}
+      transformModified: 1
+    - name: RigAnkleBone001
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -7.10542609e-15, y: -7.10542609e-15, z: -2.94928544e-08, w: .99999994}
+      scale: {x: 1.00000048, y: .999999881, z: 1}
+      transformModified: 1
+    - name: RigLLegFoot1
+      position: {x: -.121887542, y: 1.79580493e-08, z: -3.56244101e-08}
+      rotation: {x: 3.75946669e-08, y: 6.19928642e-08, z: -.510183454, w: .860065579}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: RigLLegFoot2
+      position: {x: -.112978391, y: -1.43065524e-08, z: 2.72192135e-08}
+      rotation: {x: -4.02395825e-11, y: -2.01007576e-16, z: -4.59851623e-09, w: .99999994}
+      scale: {x: 1.00000072, y: .999999285, z: 1}
+      transformModified: 1
+    - name: RigRLeg1
+      position: {x: 4.09707809e-07, y: 2.39487221e-08, z: -.0937596336}
+      rotation: {x: -.0489281155, y: .998796463, z: -.000489650702, w: -.00336743542}
+      scale: {x: .99999994, y: 1.00000012, z: .999999404}
+      transformModified: 1
+    - name: RigRLeg2
+      position: {x: -.347281009, y: -1.44984869e-09, z: 1.1320048e-08}
+      rotation: {x: 2.25296335e-05, y: -.00103032321, z: .0409196839, w: .999161899}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RigRLegAnkle
+      position: {x: -.384609878, y: 2.42791458e-08, z: 3.68051083e-08}
+      rotation: {x: 6.88969667e-05, y: -.00238973554, z: -.270676225, w: .962667406}
+      scale: {x: .999999285, y: 1.00000083, z: 1.00000048}
+      transformModified: 1
+    - name: RigAnkleBone001 1
+      position: {x: 7.4315003e-09, y: 1.93737404e-09, z: 7.45058015e-09}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RigRLegFoot1
+      position: {x: -.121887602, y: -2.19326513e-09, z: 7.94301247e-09}
+      rotation: {x: 3.75946669e-08, y: 6.199285e-08, z: -.510183454, w: .860065579}
+      scale: {x: 1.00000119, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: RigRLegFoot2
+      position: {x: -.112978406, y: 6.76546819e-08, z: 1.35626843e-08}
+      rotation: {x: 3.77080644e-10, y: 1.34457767e-15, z: 3.07603436e-08, w: .99999994}
+      scale: {x: 1, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: RigSpine1
+      position: {x: -1.18784186e-07, y: -1.04394235e-08, z: 1.63202802e-14}
+      rotation: {x: 4.48063332e-07, y: -1.70760117e-08, z: -.0158490967, w: .999874353}
+      scale: {x: .999999344, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: RigSpine2
+      position: {x: -.0894336998, y: 1.97965306e-08, z: 4.96693797e-09}
+      rotation: {x: 1.18293401e-05, y: 6.7006755e-07, z: .0501560532, w: .998741329}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: RigSpine3
+      position: {x: -.109511569, y: -2.21849472e-08, z: 5.50604051e-09}
+      rotation: {x: -1.19047318e-05, y: 2.51134082e-07, z: .0169279706, w: .999856651}
+      scale: {x: 1.00000131, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: RigSpine4
+      position: {x: -.0797238499, y: -1.31051063e-08, z: 2.54507437e-09}
+      rotation: {x: -5.67929021e-07, y: 6.20877998e-08, z: .0433828048, w: .999058545}
+      scale: {x: .999999166, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: RigSpine5
+      position: {x: -.103614703, y: 2.31851711e-08, z: -4.55388527e-09}
+      rotation: {x: 2.38692564e-06, y: -1.97336206e-07, z: .042443078, w: .999098837}
+      scale: {x: 1.00000012, y: 1.00000072, z: 1.00000024}
+      transformModified: 1
+    - name: RigRibcage
+      position: {x: -.0909026638, y: 2.14551132e-08, z: 2.69456679e-12}
+      rotation: {x: -2.2225679e-06, y: 2.72938347e-08, z: -.0565158166, w: .998401701}
+      scale: {x: .999999821, y: .999999881, z: 1.00000036}
+      transformModified: 1
+    - name: RigLArm1
+      position: {x: 1.2034842e-06, y: -1.23330224e-07, z: .204004988}
+      rotation: {x: .0479779691, y: .704673469, z: -.011997941, w: .70780611}
+      scale: {x: .999999404, y: .999999344, z: .999999404}
+      transformModified: 1
+    - name: RigLArm2
+      position: {x: -.2420156, y: 9.82977166e-09, z: 3.4123849e-07}
+      rotation: {x: -.00734187663, y: .00845597964, z: -.0443017557, w: .998955369}
+      scale: {x: .999999404, y: .999999642, z: .999999523}
+      transformModified: 1
+    - name: RigLArmPalm
+      position: {x: -.254950464, y: 7.49138085e-09, z: -4.0695997e-07}
+      rotation: {x: -.693913281, y: -.00976718124, z: .0159488767, w: .719815612}
+      scale: {x: 1.00000048, y: 1.00000131, z: 1.00000072}
+      transformModified: 1
+    - name: Dummy-LWeapon
+      position: {x: -.102080002, y: -.0348320007, z: .00136062619}
+      rotation: {x: -.00500867935, y: -.000854442304, z: -.0112879649, w: .999923348}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: RigLArmIndex1
+      position: {x: -.122813337, y: -8.38191918e-05, z: .0385268405}
+      rotation: {x: -5.42925207e-08, y: 7.65667494e-08, z: 3.19507754e-09, w: .99999994}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000012}
+      transformModified: 1
+    - name: RigLArmIndex2
+      position: {x: -.0300940052, y: 3.77086906e-07, z: -1.20589405e-08}
+      rotation: {x: 6.58019346e-08, y: 1.55304463e-08, z: -8.00752464e-10, w: .99999994}
+      scale: {x: 1, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: RigLArmIndex3
+      position: {x: -.0300004482, y: 3.17722453e-08, z: -1.80062554e-09}
+      rotation: {x: 5.57005686e-09, y: 1.6569718e-08, z: 2.61263167e-09, w: .99999994}
+      scale: {x: 1, y: 1.0000006, z: 1.00000024}
+      transformModified: 1
+    - name: RigLArmMiddle1
+      position: {x: -.122870773, y: .000315081677, z: -.0154929245}
+      rotation: {x: -5.42925207e-08, y: 7.65667494e-08, z: 3.19507754e-09, w: .99999994}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000012}
+      transformModified: 1
+    - name: RigLArmMiddle2
+      position: {x: -.0300000608, y: 2.33517113e-07, z: -2.22891181e-08}
+      rotation: {x: 6.58019346e-08, y: 1.55304463e-08, z: -8.00752464e-10, w: .99999994}
+      scale: {x: 1, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: RigLArmMiddle3
+      position: {x: -.0300003886, y: 4.61555771e-07, z: -2.04270751e-08}
+      rotation: {x: 5.57005686e-09, y: 1.6569718e-08, z: 2.61263167e-09, w: .99999994}
+      scale: {x: 1, y: 1.0000006, z: 1.00000024}
+      transformModified: 1
+    - name: RigLArmThumb1
+      position: {x: -.0479355268, y: .000287685805, z: .0513051488}
+      rotation: {x: -.0144040175, y: .398104787, z: -.00433999719, w: .917216599}
+      scale: {x: 1.00000381, y: 1.00000048, z: .999996066}
+      transformModified: 1
+    - name: RigLArmThumb2
+      position: {x: -.0232897289, y: -3.89231718e-06, z: 1.59519641e-06}
+      rotation: {x: .00023783365, y: -.0388814509, z: .00089093222, w: .999243379}
+      scale: {x: 1.0000037, y: 1.0000006, z: .999996662}
+      transformModified: 1
+    - name: RigLArmThumb3
+      position: {x: -.0233779512, y: -5.30754005e-06, z: 1.86285786e-06}
+      rotation: {x: .00206622621, y: -.0231176298, z: .00562071661, w: .999714792}
+      scale: {x: 1.00000381, y: .999999106, z: .999995708}
+      transformModified: 1
+    - name: RigNeck
+      position: {x: 1.36885689e-07, y: -1.68434724e-08, z: 1.24973685e-08}
+      rotation: {x: -8.37313507e-08, y: 1.98705789e-06, z: -.152529433, w: .988298953}
+      scale: {x: 1, y: .999999642, z: 1}
+      transformModified: 1
+    - name: RigHead
+      position: {x: -.276112795, y: 1.6404806e-07, z: 6.9838495e-09}
+      rotation: {x: -1.01031091e-07, y: 1.94910103e-06, z: -.104487129, w: -.994526267}
+      scale: {x: 1.00000012, y: .999999762, z: .999999285}
+      transformModified: 1
+    - name: RigRArm1
+      position: {x: 1.52389862e-06, y: -1.33163184e-07, z: -.204004854}
+      rotation: {x: .0479779877, y: .704673469, z: .0119978767, w: -.707805991}
+      scale: {x: .999997199, y: .999998868, z: .999998629}
+      transformModified: 1
+    - name: RigRArm2
+      position: {x: -.242015764, y: -3.32248007e-08, z: 5.23362019e-07}
+      rotation: {x: .00734183099, y: -.00845586043, z: -.0443017222, w: .998955429}
+      scale: {x: 1.00000036, y: .999999881, z: 1.00000036}
+      transformModified: 1
+    - name: RigRArmPalm
+      position: {x: -.254950672, y: 1.29540405e-08, z: 2.00636649e-07}
+      rotation: {x: .693913221, y: .0097658243, z: .0159475878, w: .719815731}
+      scale: {x: 1.00000179, y: 1.00000143, z: 1.00000083}
+      transformModified: 1
+    - name: Dummy-RWeapon
+      position: {x: -.0850884244, y: -.0352152996, z: -.00138739578}
+      rotation: {x: .0112879854, y: .999923348, z: .00500855409, w: -.000856498547}
+      scale: {x: .999999881, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: RigRArmIndex1
+      position: {x: -.122813582, y: -8.37176922e-05, z: -.0385268405}
+      rotation: {x: -5.67174263e-09, y: -1.17020713e-08, z: -2.48867078e-08, w: .99999994}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: RigRArmIndex2
+      position: {x: -.0300937891, y: -8.34033287e-08, z: 1.18801893e-08}
+      rotation: {x: -6.13919848e-09, y: -1.19342918e-08, z: -2.39562254e-08, w: .99999994}
+      scale: {x: 1.0000006, y: 1.00000048, z: .99999994}
+      transformModified: 1
+    - name: RigRArmIndex3
+      position: {x: -.0300000347, y: 1.83015718e-08, z: -9.59379576e-10}
+      rotation: {x: 6.57046357e-13, y: 5.82031923e-11, z: 2.91546247e-13, w: .99999994}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: RigRArmMiddle1
+      position: {x: -.122870401, y: .00031517059, z: .0154929338}
+      rotation: {x: -5.67174263e-09, y: -1.17020713e-08, z: -2.48867078e-08, w: .99999994}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: RigRArmMiddle2
+      position: {x: -.0300002769, y: -2.14573419e-07, z: -1.75309722e-08}
+      rotation: {x: -4.67456074e-10, y: -2.32221145e-10, z: 9.3048369e-10, w: .99999994}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1}
+      transformModified: 1
+    - name: RigRArmMiddle3
+      position: {x: -.029999733, y: 1.30709125e-07, z: 3.70430397e-09}
+      rotation: {x: 6.57046357e-13, y: 5.82031923e-11, z: 2.91546247e-13, w: .99999994}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: RigRArmThumb1
+      position: {x: -.0479435995, y: .000301901106, z: -.0513051748}
+      rotation: {x: .0143902106, y: -.398168713, z: -.00426214561, w: .917189479}
+      scale: {x: .999995768, y: 1.00000048, z: 1.00000405}
+      transformModified: 1
+    - name: RigRArmThumb2
+      position: {x: -.023292385, y: 3.903589e-06, z: 1.62386834e-06}
+      rotation: {x: -.000260155619, y: .038866289, z: .000927355664, w: .999243915}
+      scale: {x: .99999547, y: .99999994, z: 1.00000262}
+      transformModified: 1
+    - name: RigRArmThumb3
+      position: {x: -.0233836658, y: 5.63201093e-06, z: 2.04287471e-06}
+      rotation: {x: -.00206622784, y: .02311741, z: .00562072173, w: .999714792}
+      scale: {x: .999996543, y: .999999464, z: 1.00000465}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6e669942b76f56842a433ab8f65b28ff,
+    type: 3}
+  animationType: 3
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

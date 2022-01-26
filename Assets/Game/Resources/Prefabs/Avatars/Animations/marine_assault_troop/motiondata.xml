@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anim>
+ <Data id="1" name="Combat_mode" startFrame="0f" endFrame="50f" />
+ <Data id="2" name="Butt_kick" startFrame="51f" endFrame="76f" />
+ <Data id="3" name="FireReady_standing" startFrame="77f" endFrame="87f" />
+ <Data id="4" name="Pointing_standing" startFrame="88f" endFrame="228f" />
+ <Data id="5" name="Fire_standing" startFrame="229f" endFrame="269f" />
+ <Data id="6" name="Reload_standing" startFrame="270f" endFrame="345f" />
+ <Data id="7" name="From_standing_to_layDown" startFrame="346f" endFrame="392f" />
+ <Data id="8" name="Fire_lying" startFrame="393f" endFrame="408f" />
+ <Data id="9" name="Daying_lying" startFrame="409f" endFrame="424f" />
+ <Data id="10" name="From_Laying_to_Standing" startFrame="425f" endFrame="461f" />
+ <Data id="11" name="From_standing_to_squat" startFrame="462f" endFrame="487f" />
+ <Data id="12" name="FromSquat_toLaying" startFrame="488f" endFrame="528f" />
+ <Data id="13" name="FromLaying_toSquat" startFrame="529f" endFrame="569f" />
+ <Data id="14" name="LookingAround_Squat" startFrame="570f" endFrame="700f" />
+ <Data id="15" name="FireReady_squat" startFrame="701f" endFrame="716f" />
+ <Data id="16" name="Fire_squat" startFrame="717f" endFrame="729f" />
+ <Data id="17" name="Reload_squat" startFrame="730f" endFrame="803f" />
+ <Data id="18" name="Daying_squat" startFrame="804f" endFrame="837f" />
+ <Data id="19" name="From_squat_to_standing" startFrame="838f" endFrame="864f" />
+ <Data id="20" name="Grenade_throw" startFrame="865f" endFrame="905f" />
+ <Data id="21" name="Moving_left" startFrame="906f" endFrame="926f" />
+ <Data id="22" name="Moving_right" startFrame="927f" endFrame="947f" />
+ <Data id="23" name="Jump" startFrame="948f" endFrame="994f" />
+ <Data id="24" name="Run" startFrame="995f" endFrame="1017f" />
+ <Data id="25" name="Walking" startFrame="1018f" endFrame="1054f" />
+ <Data id="26" name="Walking_back" startFrame="1055f" endFrame="1090f" />
+ <Data id="27" name="Daying_on_back" startFrame="1091f" endFrame="1129f" />
+ <Data id="28" name="Daying_on_belt" startFrame="1130f" endFrame="1237f" />
+ <Data id="29" name="Fire_Runing" startFrame="1238f" endFrame="1260f" />
+ <Data id="30" name="Fire_walking" startFrame="1261f" endFrame="1297f" />
+ <Data id="31" name="Climbing_wall_idle" startFrame="1298f" endFrame="1373f" />
+ <Data id="32" name="climbing_wall_left" startFrame="1374f" endFrame="1399f" />
+ <Data id="33" name="climbing_wall_right" startFrame="1400f" endFrame="1425f" />
+ <Data id="34" name="Climbing_rope" startFrame="1426f" endFrame="1466f" />
+ <Data id="35" name="Climbing_ladder_up" startFrame="1467f" endFrame="1507f" />
+ <Data id="36" name="Climbing_ladder_down" startFrame="1508f" endFrame="1548f" />
+</Anim>
