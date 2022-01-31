@@ -1,4 +1,4 @@
 # GameProgrammingLessons
 Game Programming Lessons
 
-Cambio de lunes
+Nuevo cambio para lunes a las 11:00
