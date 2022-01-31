@@ -81,7 +81,7 @@ public class Enemy : Avatar
     public override void DecreaseLife(int _damage)
     {
         base.DecreaseLife(_damage);
-        if (m_life == 0)
+        if ((m_life == 0) && (m_state != DIE))
         {
             GameObject.FindObjectOfType<Player>().Score += 10;
             SoundsController.Instance.PlaySoundFX(SoundsController.FX_DEAD_ENEMY, 1);
