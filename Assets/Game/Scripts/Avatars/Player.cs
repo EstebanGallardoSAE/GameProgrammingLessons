@@ -10,10 +10,15 @@ public class Player : Avatar
     public const int IDLE = 1;
     public const int WALK = 2;
     public const int DIE = 3;
+    public const int JUMP = 4;
 
     public const int ANIMATION_IDLE = 0;
     public const int ANIMATION_RUN = 1;
     public const int ANIMATION_DIE = 2;
+
+    public Vector3 JumpPower;
+    public bool isGrounded = true;
+    Rigidbody rb;
 
     public GameObject BulletPlayer;
     public Text DisplayScore;
@@ -35,6 +40,9 @@ public class Player : Avatar
     protected override void Start()
     {
         base.Start();
+
+        rb = this.GetComponent<Rigidbody>();
+        JumpPower = new Vector3(0.0f, 2.0f, 0.0f);
 
         Score = 0;
         m_state = IDLE;
@@ -103,6 +111,28 @@ public class Player : Avatar
             realForward = new Vector3(realForward.x, 0, realForward.z).normalized;
 
             MoveToPosition(realForward * Speed * Time.deltaTime);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Floor")
+        {
+            isGrounded = true;
+        }             
+    }
+
+
+    private void jump()
+    {     
+        if (isGrounded == true)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rb.AddForce(JumpPower * 3, ForceMode.Impulse);
+                ChangeAnimation(JUMP);              
+                isGrounded = false;
+            }
         }
     }
 
@@ -205,12 +235,15 @@ public class Player : Avatar
 
     public override void RunLogic()
     {
+        
         switch (m_state)
         {
             case INITIAL:
                 break;
 
             case IDLE:
+                
+                jump();
                 RotateToCamera();
                 ShootBullet();
                 CheckToDisplayDanger();
@@ -225,6 +258,7 @@ public class Player : Avatar
                 break;
 
             case WALK:
+                jump();
                 RotateToCamera();
                 Move();
                 ShootBullet();
