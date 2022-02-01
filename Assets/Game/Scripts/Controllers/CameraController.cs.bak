@@ -34,7 +34,6 @@ public class CameraController : StateMachine
     
     void Start()
     {
-		Debug.Log("Started Camera");
         m_lastState = CAMERA_1ST_PERSON;
         ChangeState(CAMERA_FROZEN);
     }
