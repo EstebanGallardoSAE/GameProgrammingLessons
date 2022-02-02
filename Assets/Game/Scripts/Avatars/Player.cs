@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Player
 public class Player : Avatar
 {
     public const int INITIAL = 0;
