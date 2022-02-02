@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// NPC
 public class NPC : Avatar
 {
     public const int INITIAL = 0;

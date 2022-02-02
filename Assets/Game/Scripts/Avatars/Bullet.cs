@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// bullet
 public class Bullet : Avatar
 {
     public const int TYPE_BULLET_PLAYER = 0;
