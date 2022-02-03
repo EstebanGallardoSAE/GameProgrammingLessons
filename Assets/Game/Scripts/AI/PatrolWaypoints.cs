@@ -27,7 +27,7 @@ public class PatrolWaypoints : StateMachine
 	public const int GO_TO_WAYPOINT = 2;
 	public const int STAY_IN_WAYPOINT = 3;
 
-
+    public bool AutoActivatePatrol = false;
 	public Waypoint[] Waypoints;
     public int CurrentWaypoint = 0;
 
@@ -40,7 +40,9 @@ public class PatrolWaypoints : StateMachine
 	// Start is called before the first frame update
 	void Start()
     {
-		m_rotateComponent = GetComponent<RotateToTarget>();
+        AutoPatrol();
+
+        m_rotateComponent = GetComponent<RotateToTarget>();
 
 		if (GetComponent<Rigidbody>() != null)
         {
@@ -125,6 +127,14 @@ public class PatrolWaypoints : StateMachine
 		ChangeState(SYNCHRONIZATION);
     }
 
+    private void AutoPatrol()
+    {
+        if(AutoActivatePatrol == true)
+        {
+            ActivatePatrol(2);
+        }
+    }
+
 	public void DeactivatePatrol()
     {
 		m_activated = false;
@@ -156,6 +166,8 @@ public class PatrolWaypoints : StateMachine
 	// Update is called once per frame
 	void Update()
     {
+        
+
 		if (m_activated == false) return;
 
 		switch (m_state)

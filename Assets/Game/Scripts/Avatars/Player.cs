@@ -20,6 +20,7 @@ public class Player : Avatar
     public bool isGrounded = true;
     Rigidbody rb;
 
+    public bool InPlatform = false;
     public GameObject BulletPlayer;
     public Text DisplayScore;
     public Text DisplayLife;
@@ -73,6 +74,7 @@ public class Player : Avatar
         }
     }
 
+
     public override void InitLogic()
     {
         m_life = InitialLife;
@@ -119,8 +121,23 @@ public class Player : Avatar
         if(collision.gameObject.tag == "Floor")
         {
             isGrounded = true;
-        }             
+        }
+        
+        if(collision.gameObject.tag == "Platform")
+        {
+            InPlatform = true;
+        }
     }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            InPlatform = false;
+        }
+    }
+
+
 
 
     private void jump()
