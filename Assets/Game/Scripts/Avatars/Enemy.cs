@@ -169,7 +169,9 @@ public class Enemy : Avatar
     private void WalkToPlayer()
     {
         Vector3 directionToPlayer = GetDirection(GameController.Instance.MyPlayer.transform.position, this.transform.position);
-        MoveToPosition(directionToPlayer.normalized * Speed * Time.deltaTime);
+        //MoveToPosition(directionToPlayer.normalized * Speed * Time.deltaTime);
+        m_patrolComponent.Agent.SetDestination(GameController.Instance.MyPlayer.transform.position);
+
     }
 
     private void ShootAtPlayer()

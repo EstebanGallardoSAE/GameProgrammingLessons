@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PatrolWaypoints : StateMachine
 {
@@ -30,8 +31,9 @@ public class PatrolWaypoints : StateMachine
 
 	public Waypoint[] Waypoints;
     public int CurrentWaypoint = 0;
+    public NavMeshAgent Agent;
 
-	private bool m_activated = false;
+    private bool m_activated = false;
 	private float m_timeDone = 0;
 	private float m_speed;
 	private RotateToTarget m_rotateComponent;
@@ -41,6 +43,7 @@ public class PatrolWaypoints : StateMachine
 	void Start()
     {
 		m_rotateComponent = GetComponent<RotateToTarget>();
+		Agent = GetComponent<NavMeshAgent>();
 
 		if (GetComponent<Rigidbody>() != null)
         {
@@ -63,15 +66,17 @@ public class PatrolWaypoints : StateMachine
 	}
 
 	private Vector3 GetPreviousPositionWaypoint(int _waypointIndex)
-    {
-		int finalIndexCheck = _waypointIndex - 1;
-		if (finalIndexCheck < 0)
-        {
-			finalIndexCheck = Waypoints.Length - 1;
-		}
-
+	{
+		int finalIndexCheck = _waypointIndex; 
+		do {
+			finalIndexCheck--; 
+			if (finalIndexCheck < 0)
+			{
+				finalIndexCheck = Waypoints.Length - 1;
+			}
+		} while (Waypoints[finalIndexCheck].Action != Waypoint.ActionsPatrol.GO);
 		return Waypoints[finalIndexCheck].Position;
-    }
+	}
 
 	private void WalkToCurrentWaypoint()
     {
@@ -81,10 +86,12 @@ public class PatrolWaypoints : StateMachine
 		Vector3 forwardTarget = (Waypoints[CurrentWaypoint].Position - origin);
 		float increaseFactor = m_timeDone/duration;
 		Vector3 nextPosition = origin + (increaseFactor * forwardTarget);
-		if (m_hasRigidBody)
+		if (Agent != null)
         {
-			transform.GetComponent<Rigidbody>().MovePosition(new Vector3(nextPosition.x, transform.position.y, nextPosition.z));
-		}
+			//transform.GetComponent<Rigidbody>().MovePosition(new Vector3(nextPosition.x, transform.position.y, nextPosition.z));
+
+			Agent.SetDestination(nextPosition);
+        }
 		else
         {
 			transform.position = nextPosition;
@@ -107,9 +114,10 @@ public class PatrolWaypoints : StateMachine
     {
 		Vector3 forwardTarget = (Waypoints[CurrentWaypoint].Position - transform.position).normalized;
 		Vector3 nextPosition = transform.position + (forwardTarget * m_speed * Time.deltaTime);
-		if (m_hasRigidBody)
+		if (Agent != null)
 		{
-			transform.GetComponent<Rigidbody>().MovePosition(new Vector3(nextPosition.x, transform.position.y, nextPosition.z));
+			//transform.GetComponent<Rigidbody>().MovePosition(new Vector3(nextPosition.x, transform.position.y, nextPosition.z));
+			Agent.SetDestination(nextPosition);
 		}
 		else
         {

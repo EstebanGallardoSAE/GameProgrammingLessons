@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 8424648247508517938}
   - component: {fileID: 8921252506212543125}
   - component: {fileID: 1276305666701650974}
+  - component: {fileID: 1670701853500590390}
   m_Layer: 0
   m_Name: NPC_1
   m_TagString: Untagged
@@ -245,6 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waypoints: []
   CurrentWaypoint: 0
+  Agent: {fileID: 0}
 --- !u!114 &1276305666701650974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +261,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {x: 0, y: 0, z: 0}
   RotationSpeed: 10
+--- !u!195 &1670701853500590390
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424648247508517944}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &194202902932461261
 PrefabInstance:
   m_ObjectHideFlags: 0
